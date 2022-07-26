@@ -1,12 +1,123 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
 
-/* 
+#wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+#logo {
+    width: 30px;
+    height: 25px;
+}
 
-*/
+
+#navbar {
+    display:flex;
+    list-style: none;
+    color: #61DAFB;
+    margin: auto;
+    margin-right: 0%;
+    padding-right: 5%;
+
+    color:aliceblue;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.05em;
+}
+
+ul li {
+    padding-left: 5px;
+}
+
+#head {
+    background-color: #21222A;
+    ;
+}
+
+#logo-nav {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-left: 5%;
+}
+
+#reactFacts {
+    margin: auto;
+        margin-left: 0%;
+        width: 50%;
+        padding: 20px;
+        color: #61DAFB;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22.2535px;
+        line-height: 27px;
+        letter-spacing: -0.05em;
+  }
+
+
+ #body-wrap {
+    padding-top: 57px;
+    padding-bottom: 85px;
+    background: #282D35;
+
+ }
+
+#title {
+    padding-left: 27px;
+    padding-right: 99px;
+    color:aliceblue;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 39.06px;
+line-height: 47px;
+letter-spacing: -0.05em;
+}
+
+#list {
+    width: 390px;
+    padding-top: 46px;
+height: 190px;
+left: 74px;
+top: 235px;
+color: aliceblue;
+margin-left: 38px;
+}
+
+ul {
+    list-style: none; /* Remove default bullets */
+  }
+  
+#list li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #61DAFB;   /* Change the color */
+    font-size: 1.8rem;
+     /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+
+#second-wrap {
+    display: flex;
+    
+}
+
+footer {
+    background-color: #21222A;
+    color: aliceblue;
+    text-align: center;
+}
+
+#list li {
+    height: 40px;
+}
